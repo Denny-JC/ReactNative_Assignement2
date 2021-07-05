@@ -1,3 +1,4 @@
+
 # ReactNative_Assignement2
 Navigation.
 Here Stack Navigation and Tab Navigation is used.
@@ -9,10 +10,10 @@ It is required to run certain codes in the terminal to install navigation and it
 Now ReactNative is initiated and this is the output for the particular app.
 1. Stack Navigation 
 
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/84028364/124508637-f73eae80-dded-11eb-91f1-4c13caa9da9e.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/84028364/124508641-f9a10880-dded-11eb-8c86-f6179a27c4e4.gif)
 
- ![ezgif com-gif-maker](https://user-images.githubusercontent.com/84028364/124155639-56ca5080-dab4-11eb-81a9-94160f43fc75.gif)
- ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/84028364/124155651-57fb7d80-dab4-11eb-8f7d-e3f11bc9f923.gif)
 
-The Youtube video for this project is given,                                                                                                                                       
+The Youtube video link for this project is given,                                                                                                                                       
 
-https://youtu.be/XIISOXDc-F0  , where Tab Navigation is shown. 
+https://youtu.be/XIISOXDc-F0 
