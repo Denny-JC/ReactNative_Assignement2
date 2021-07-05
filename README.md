@@ -20,4 +20,4 @@ Now ReactNative is initiated and this is the output for the particular app.
 
 The Youtube video link for this project is given,                                                                                                                                       
 
-https://youtu.be/XIISOXDc-F0 
+https://youtu.be/wISgFug4GYY 
