@@ -45,16 +45,26 @@ function SettingsScreen({ navigation }) {
         </View>
  
  
-        <View style={{ width: 400, height: 30, backgroundColor: '#FF1744',}} >
- 
-            <Text style={{fontSize: 20, textAlign: 'left', color: '#fff'}}> Switch Account </Text>
+        <View style={{width: 400, backgroundColor: '#00BCD4' }} >
+        <Button 
+        size
+        title="Switch Account"
+        color="red"
+        onPress={() => navigation.navigate('AccData')}
+      />
+           
  
         </View>
 
 
-        <View style={{ width: 400, height: 30, backgroundColor: '#4CAF50',}} >
- 
-            <Text style={{fontSize: 20, textAlign: 'left', color: '#fff'}}> About </Text>
+        <View style={{width: 400, backgroundColor: '#00BCD4' }} >
+        <Button 
+        size
+        title="About"
+        color="orangered"
+        onPress={() => navigation.navigate('AboutData')}
+      />
+           
  
         </View>
  
@@ -75,6 +85,30 @@ function SettingData({ navigation }) {
     </View>
   );
 }
+function AccData({ navigation }) {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>The Details are listed here</Text>
+      <Button color="#ff5c5c"
+        title="Go to Settings"
+        onPress={() => navigation.navigate('Settings')}
+      />
+    </View>
+  );
+}
+
+function AboutData({ navigation }) {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>The Details are listed here</Text>
+      <Button color="#ff5c5c"
+        title="Go to Settings"
+        onPress={() => navigation.navigate('Settings')}
+      />
+    </View>
+  );
+}
+
 
 const HomeStack = createStackNavigator();
 
@@ -94,6 +128,8 @@ function SettingsStackScreen() {
     <SettingsStack.Navigator>
       <SettingsStack.Screen name="Settings" component={SettingsScreen} />
       <SettingsStack.Screen name="SetData" component={SettingData} />
+      <SettingsStack.Screen name="AccData" component={AccData} />
+      <SettingsStack.Screen name="AboutData" component={AboutData} />
     </SettingsStack.Navigator>
   );
 }
